@@ -328,6 +328,39 @@ public class AssignableQueryParameterModelBinderTests
         Assert.Equal(42, domain.Value);
     }
 
+    [Fact]
+    public async Task AsAssignable_WithSelector_WhenAbsent_ReturnsAbsentAssignable()
+    {
+        // Arrange
+        var binder = new AssignableQueryParameterModelBinder<string>(_defaultOptions);
+        var context = CreateBindingContext<string>("myParam", ValueProviderResult.None);
+
+        // Act
+        await binder.BindModelAsync(context);
+        var result = Assert.IsType<AssignableQueryParameter<string>>(context.Result.Model);
+        var domain = result.AsAssignable(s => s?.ToUpper());
+
+        // Assert
+        Assert.False(domain.IsAssigned);
+    }
+
+    [Fact]
+    public async Task AsAssignable_WithSelector_WhenAssigned_ReturnsProjectedValue()
+    {
+        // Arrange
+        var binder = new AssignableQueryParameterModelBinder<string>(_defaultOptions);
+        var context = CreateBindingContext<string>("myParam", new ValueProviderResult("hello"));
+
+        // Act
+        await binder.BindModelAsync(context);
+        var result = Assert.IsType<AssignableQueryParameter<string>>(context.Result.Model);
+        var domain = result.AsAssignable(s => s?.ToUpper());
+
+        // Assert
+        Assert.True(domain.IsAssigned);
+        Assert.Equal("HELLO", domain.Value);
+    }
+
     #endregion
 
     private static ModelBindingContext CreateBindingContext<T>(string modelName, ValueProviderResult valueProviderResult)

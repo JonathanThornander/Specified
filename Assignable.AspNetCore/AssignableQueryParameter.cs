@@ -1,4 +1,7 @@
-﻿namespace Assignable.AspNetCore
+﻿using System;
+using System.Diagnostics.CodeAnalysis;
+
+namespace Assignable.AspNetCore
 {
     /// <summary>
     /// Represents a query parameter that may or may not be assigned a value.
@@ -8,14 +11,20 @@
     public readonly struct AssignableQueryParameter<T>
     {
         /// <summary>
+        /// Gets the value of the parameter, or default if not assigned.
+        /// </summary>
+        public T? Value { get; }
+
+        /// <summary>
         /// Gets a value indicating whether the parameter has been assigned a value.
         /// </summary>
         public bool IsAssigned { get; }
 
         /// <summary>
-        /// Gets the value of the parameter, or default if not assigned.
+        /// Indicates whether the value is set and not null.
         /// </summary>
-        public T? Value { get; }
+        [MemberNotNullWhen(true, nameof(Value))]
+        public bool HasValue => IsAssigned && Value is not null;
 
         /// <summary>
         /// Initializes a new instance of <see cref="AssignableQueryParameter{T}"/> with the specified value.
@@ -47,6 +56,19 @@
             return IsAssigned
                 ? new Assignable<T>(Value)
                 : Assignable<T>.Absent();
+        }
+
+        /// <summary>
+        /// Converts this query parameter to an <see cref="Assignable{TResult}"/> instance, projecting the value using the specified selector.
+        /// </summary>
+        /// <typeparam name="TResult">The type of the result.</typeparam>
+        /// <param name="selector">A function to project the value.</param>
+        /// <returns>An <see cref="Assignable{TResult}"/> representing the projected value or absent.</returns>
+        public Assignable<TResult> AsAssignable<TResult>(Func<T?, TResult> selector)
+        {
+            return IsAssigned
+                ? new Assignable<TResult>(selector(Value))
+                : Assignable<TResult>.Absent();
         }
 
         private AssignableQueryParameter(T? value, bool isAssigned)

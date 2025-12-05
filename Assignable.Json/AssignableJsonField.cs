@@ -1,4 +1,5 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.Diagnostics.CodeAnalysis;
+using System.Text.Json.Serialization;
 
 namespace Assignable.Json
 {
@@ -11,14 +12,20 @@ namespace Assignable.Json
     public readonly struct AssignableJsonField<T>
     {
         /// <summary>
+        /// Gets the value of the field, or default if not assigned.
+        /// </summary>
+        public T? Value { get; }
+
+        /// <summary>
         /// Gets a value indicating whether the field has been assigned a value.
         /// </summary>
         public bool IsAssigned { get; }
 
         /// <summary>
-        /// Gets the value of the field, or default if not assigned.
+        /// Indicates whether the value is set and not null.
         /// </summary>
-        public T? Value { get; }
+        [MemberNotNullWhen(true, nameof(Value))]
+        public bool HasValue => IsAssigned && Value is not null;
 
         /// <summary>
         /// Initializes a new instance of <see cref="AssignableJsonField{T}"/> with the specified value.
@@ -50,6 +57,19 @@ namespace Assignable.Json
             return IsAssigned
                 ? new Assignable<T>(Value)
                 : Assignable<T>.Absent();
+        }
+
+        /// <summary>
+        /// Converts this JSON field to an <see cref="Assignable{TResult}"/> instance, projecting the value using the specified selector.
+        /// </summary>
+        /// <typeparam name="TResult">The type of the result.</typeparam>
+        /// <param name="selector">A function to project the value.</param>
+        /// <returns>An <see cref="Assignable{TResult}"/> representing the projected value or absent.</returns>
+        public Assignable<TResult> AsAssignable<TResult>(Func<T?, TResult> selector)
+        {
+            return IsAssigned
+                ? new Assignable<TResult>(selector(Value))
+                : Assignable<TResult>.Absent();
         }
 
         private AssignableJsonField(T? value, bool isAssigned)

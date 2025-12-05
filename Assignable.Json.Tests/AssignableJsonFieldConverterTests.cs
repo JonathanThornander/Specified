@@ -259,6 +259,47 @@ public class AssignableJsonFieldConverterTests
         Assert.Null(domain.Value);
     }
 
+    [Fact]
+    public void AsAssignable_WithSelector_WhenAbsent_ReturnsAbsentAssignable()
+    {
+        // Arrange
+        var field = AssignableJsonField<string>.Absent;
+
+        // Act
+        var domain = field.AsAssignable(s => s?.ToUpper());
+
+        // Assert
+        Assert.False(domain.IsAssigned);
+    }
+
+    [Fact]
+    public void AsAssignable_WithSelector_WhenAssignedWithValue_ReturnsProjectedValue()
+    {
+        // Arrange
+        var field = new AssignableJsonField<string>("hello");
+
+        // Act
+        var domain = field.AsAssignable(s => s?.ToUpper());
+
+        // Assert
+        Assert.True(domain.IsAssigned);
+        Assert.Equal("HELLO", domain.Value);
+    }
+
+    [Fact]
+    public void AsAssignable_WithSelector_WhenAssignedWithNull_ReturnsProjectedNull()
+    {
+        // Arrange
+        var field = new AssignableJsonField<string?>(null);
+
+        // Act
+        var domain = field.AsAssignable(s => s?.ToUpper() ?? "DEFAULT");
+
+        // Assert
+        Assert.True(domain.IsAssigned);
+        Assert.Equal("DEFAULT", domain.Value);
+    }
+
     #endregion
 
     #region Test Models

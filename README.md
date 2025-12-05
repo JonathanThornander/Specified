@@ -1,6 +1,5 @@
 # Assignable.AspNetCore 🎯
 
-[![CI/CD](https://github.com/your-org/assignable/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/your-org/assignable/actions/workflows/ci-cd.yml)
 [![NuGet](https://img.shields.io/nuget/v/Assignable.AspNetCore.svg)](https://www.nuget.org/packages/Assignable.AspNetCore/)
 
 **Distinguish between "not provided" and "explicitly set to null"** in your ASP.NET Core APIs with zero friction.

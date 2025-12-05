@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net7.0;net8.0;net9.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>true</IsPackable>
+    <PackageId>Assignable.Json</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Jonathan Thornander</Authors>
+    <Company>Assignable</Company>
+    <Description>JSON serialization support for Assignable types in System.Text.Json.</Description>
+    <PackageTags>assignable;json;serialization;system.text.json</PackageTags>
+    <RepositoryUrl>https://github.com/your-org/assignable</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Assignable\Assignable.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

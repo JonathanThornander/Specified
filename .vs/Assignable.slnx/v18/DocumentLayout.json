@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jonathant\\source\\repos\\Specified\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F00F8BF2-A7C8-46E2-8900-6DE39E3854CC}|Assignable.AspNetCore\\Assignable.AspNetCore.csproj|c:\\users\\jonathant\\source\\repos\\specified\\assignable.aspnetcore\\assignablequeryparametermodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F00F8BF2-A7C8-46E2-8900-6DE39E3854CC}|Assignable.AspNetCore\\Assignable.AspNetCore.csproj|solutionrelative:assignable.aspnetcore\\assignablequeryparametermodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F00F8BF2-A7C8-46E2-8900-6DE39E3854CC}|Assignable.AspNetCore\\Assignable.AspNetCore.csproj|c:\\users\\jonathant\\source\\repos\\specified\\assignable.aspnetcore\\assignablequeryparametermodelbinderprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F00F8BF2-A7C8-46E2-8900-6DE39E3854CC}|Assignable.AspNetCore\\Assignable.AspNetCore.csproj|solutionrelative:assignable.aspnetcore\\assignablequeryparametermodelbinderprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F00F8BF2-A7C8-46E2-8900-6DE39E3854CC}|Assignable.AspNetCore\\Assignable.AspNetCore.csproj|c:\\users\\jonathant\\source\\repos\\specified\\assignable.aspnetcore\\assignablequeryparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F00F8BF2-A7C8-46E2-8900-6DE39E3854CC}|Assignable.AspNetCore\\Assignable.AspNetCore.csproj|solutionrelative:assignable.aspnetcore\\assignablequeryparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F00F8BF2-A7C8-46E2-8900-6DE39E3854CC}|Assignable.AspNetCore\\Assignable.AspNetCore.csproj|c:\\users\\jonathant\\source\\repos\\specified\\assignable.aspnetcore\\assignable.aspnetcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F00F8BF2-A7C8-46E2-8900-6DE39E3854CC}|Assignable.AspNetCore\\Assignable.AspNetCore.csproj|solutionrelative:assignable.aspnetcore\\assignable.aspnetcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA3B23AB-FB22-A9F4-1D32-F724E847D178}|Assignable.Json\\Assignable.Json.csproj|c:\\users\\jonathant\\source\\repos\\specified\\assignable.json\\assignablejsonfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA3B23AB-FB22-A9F4-1D32-F724E847D178}|Assignable.Json\\Assignable.Json.csproj|solutionrelative:assignable.json\\assignablejsonfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{720DA1EA-C3A9-912C-6920-8CEA055554F4}|Assignable\\Assignable.csproj|c:\\users\\jonathant\\source\\repos\\specified\\assignable\\assignable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{720DA1EA-C3A9-912C-6920-8CEA055554F4}|Assignable\\Assignable.csproj|solutionrelative:assignable\\assignable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA3B23AB-FB22-A9F4-1D32-F724E847D178}|Assignable.Json\\Assignable.Json.csproj|c:\\users\\jonathant\\source\\repos\\specified\\assignable.json\\assignablejsonfieldconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA3B23AB-FB22-A9F4-1D32-F724E847D178}|Assignable.Json\\Assignable.Json.csproj|solutionrelative:assignable.json\\assignablejsonfieldconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA3B23AB-FB22-A9F4-1D32-F724E847D178}|Assignable.Json\\Assignable.Json.csproj|c:\\users\\jonathant\\source\\repos\\specified\\assignable.json\\assignablejsonfieldconverterfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA3B23AB-FB22-A9F4-1D32-F724E847D178}|Assignable.Json\\Assignable.Json.csproj|solutionrelative:assignable.json\\assignablejsonfieldconverterfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AssignableQueryParameterModelBinderProvider.cs",
+              "DocumentMoniker": "C:\\Users\\jonathant\\source\\repos\\Specified\\Assignable.AspNetCore\\AssignableQueryParameterModelBinderProvider.cs",
+              "RelativeDocumentMoniker": "Assignable.AspNetCore\\AssignableQueryParameterModelBinderProvider.cs",
+              "ToolTip": "C:\\Users\\jonathant\\source\\repos\\Specified\\Assignable.AspNetCore\\AssignableQueryParameterModelBinderProvider.cs",
+              "RelativeToolTip": "Assignable.AspNetCore\\AssignableQueryParameterModelBinderProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T08:57:26.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Assignable.AspNetCore",
+              "DocumentMoniker": "C:\\Users\\jonathant\\source\\repos\\Specified\\Assignable.AspNetCore\\Assignable.AspNetCore.csproj",
+              "RelativeDocumentMoniker": "Assignable.AspNetCore\\Assignable.AspNetCore.csproj",
+              "ToolTip": "C:\\Users\\jonathant\\source\\repos\\Specified\\Assignable.AspNetCore\\Assignable.AspNetCore.csproj",
+              "RelativeToolTip": "Assignable.AspNetCore\\Assignable.AspNetCore.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-05T08:55:00.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssignableQueryParameterModelBinder.cs",
+              "DocumentMoniker": "C:\\Users\\jonathant\\source\\repos\\Specified\\Assignable.AspNetCore\\AssignableQueryParameterModelBinder.cs",
+              "RelativeDocumentMoniker": "Assignable.AspNetCore\\AssignableQueryParameterModelBinder.cs",
+              "ToolTip": "C:\\Users\\jonathant\\source\\repos\\Specified\\Assignable.AspNetCore\\AssignableQueryParameterModelBinder.cs",
+              "RelativeToolTip": "Assignable.AspNetCore\\AssignableQueryParameterModelBinder.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T08:54:16.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Assignable.cs",
+              "DocumentMoniker": "C:\\Users\\jonathant\\source\\repos\\Specified\\Assignable\\Assignable.cs",
+              "RelativeDocumentMoniker": "Assignable\\Assignable.cs",
+              "ToolTip": "C:\\Users\\jonathant\\source\\repos\\Specified\\Assignable\\Assignable.cs",
+              "RelativeToolTip": "Assignable\\Assignable.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwCAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T06:57:16.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AssignableQueryParameter.cs",
+              "DocumentMoniker": "C:\\Users\\jonathant\\source\\repos\\Specified\\Assignable.AspNetCore\\AssignableQueryParameter.cs",
+              "RelativeDocumentMoniker": "Assignable.AspNetCore\\AssignableQueryParameter.cs",
+              "ToolTip": "C:\\Users\\jonathant\\source\\repos\\Specified\\Assignable.AspNetCore\\AssignableQueryParameter.cs",
+              "RelativeToolTip": "Assignable.AspNetCore\\AssignableQueryParameter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T06:56:09.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AssignableJsonFieldConverterFactory.cs",
+              "DocumentMoniker": "C:\\Users\\jonathant\\source\\repos\\Specified\\Assignable.Json\\AssignableJsonFieldConverterFactory.cs",
+              "RelativeDocumentMoniker": "Assignable.Json\\AssignableJsonFieldConverterFactory.cs",
+              "ToolTip": "C:\\Users\\jonathant\\source\\repos\\Specified\\Assignable.Json\\AssignableJsonFieldConverterFactory.cs",
+              "RelativeToolTip": "Assignable.Json\\AssignableJsonFieldConverterFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T06:55:08.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AssignableJsonFieldConverter.cs",
+              "DocumentMoniker": "C:\\Users\\jonathant\\source\\repos\\Specified\\Assignable.Json\\AssignableJsonFieldConverter.cs",
+              "RelativeDocumentMoniker": "Assignable.Json\\AssignableJsonFieldConverter.cs",
+              "ToolTip": "C:\\Users\\jonathant\\source\\repos\\Specified\\Assignable.Json\\AssignableJsonFieldConverter.cs",
+              "RelativeToolTip": "Assignable.Json\\AssignableJsonFieldConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T06:54:22.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssignableJsonField.cs",
+              "DocumentMoniker": "C:\\Users\\jonathant\\source\\repos\\Specified\\Assignable.Json\\AssignableJsonField.cs",
+              "RelativeDocumentMoniker": "Assignable.Json\\AssignableJsonField.cs",
+              "ToolTip": "C:\\Users\\jonathant\\source\\repos\\Specified\\Assignable.Json\\AssignableJsonField.cs",
+              "RelativeToolTip": "Assignable.Json\\AssignableJsonField.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T06:50:25.72Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

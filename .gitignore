@@ -1,0 +1,26 @@
+# Build outputs
+bin/
+obj/
+artifacts/
+
+# Test results
+TestResults/
+*.trx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# User-specific files
+*.user

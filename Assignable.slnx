@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Assignable.AspNetCore.Tests/Assignable.AspNetCore.Tests.csproj" />
+  <Project Path="Assignable.AspNetCore/Assignable.AspNetCore.csproj" Id="f00f8bf2-a7c8-46e2-8900-6de39e3854cc" />
+  <Project Path="Assignable.Json.Tests/Assignable.Json.Tests.csproj" />
+  <Project Path="Assignable.Json/Assignable.Json.csproj" />
+  <Project Path="Assignable/Assignable.csproj" />
+</Solution>

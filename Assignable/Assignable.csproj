@@ -7,8 +7,8 @@
     <IsPackable>true</IsPackable>
     <PackageId>Assignable</PackageId>
     <Version>1.0.0</Version>
-    <Authors>Jonathan Thornander</Authors>
-    <Company>Assignable</Company>
+    <Authors>Joni Thornander</Authors>
+    <Company>Cyflx</Company>
     <Description>Core library providing assignable types that distinguish between absent, null, and present values.</Description>
     <PackageTags>assignable;nullable;optional;types</PackageTags>
     <RepositoryUrl>https://github.com/your-org/assignable</RepositoryUrl>
